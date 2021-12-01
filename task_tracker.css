@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gaegu:wght@300;400;700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Kelly+Slab&family=Marmelad&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+body {
+   font-family: roboto;
+}
+
+.to-do-list-wrapper {
+   width: 336px;
+   /* height: 236px; */
+   border: 1px solid #C4C4C4;
+   border-radius: 10px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.top {
+   position: relative;
+   width: 336px;
+   height: 28px;
+   left: 50%;
+   top: 14px;
+   transform: translate(-50%, -50%);
+   border-radius: 10px 10px 0 0;
+   background: #FFDC40;
+}
+
+.headline {
+   font-weight: 900;
+   font-size: 26px;
+   margin-top: 13px;
+   margin-bottom: 16px;
+}
+
+.sort {
+   align-self: flex-end;
+   width: 25px;
+   height: 15px;
+   margin-right: 30px;
+   background: url(sort-down.svg);
+}
+
+.sort:hover {
+   background: url(sort-down-active.svg);
+}
+
+.sort-reverse {
+   align-self: flex-end;
+   width: 25px;
+   height: 15px;
+   margin-right: 30px;
+   background: url(sort-reverse.svg);
+}
+.sort-reverse:hover {
+   background: url(sort-reverse-active.svg);
+}
+
+.task {
+   border-radius: 10px;
+   border: 1px solid #C4C4C4;
+   width: 286px;
+   /* height: 40px; */
+   margin-top: 11px;
+   display: flex;
+   justify-content: flex-end;
+   box-sizing: border-box;
+   flex-direction: column;
+}
+
+.task-wrapper {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.entry-field {
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   width: 75%;
+   font-size: 14px;
+   font-family: roboto;
+}
+
+.remove-task {
+   border: none;
+   width: 20px;
+   height: 20px;
+   margin: 10px 30px 10px 0;
+   background: url(delete-task.svg);
+   background-repeat: no-repeat;
+}
+
+.remove-task:hover {
+   background: url(delete-task-active.svg);
+   background-repeat: no-repeat;
+}
+
+.add {
+   display: flex;
+   align-items: center;
+   margin-top: 18px;
+   margin-bottom: 19px;
+   background: #833AE0;
+   border: none;
+   color: white;
+   font-size: 14px;
+   font-family: roboto;
+   border-radius: 71px;
+   width: 150px;
+   height: 42px;
+}
+
+button:hover {
+   background: #9953F1;
+}
+button:hover .plus{
+   background: #AA68FE;
+}
+
+.plus {
+   background: #9953F1;
+   border-radius: 71px;
+   width: 42px;
+   height: 42px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: -5px;
+   margin-right: 11px;
+}
