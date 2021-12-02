@@ -74,6 +74,7 @@ body {
 .task-wrapper {
    display: flex;
    justify-content: flex-end;
+   cursor: move;
 }
 
 .entry-field {
@@ -132,3 +133,4 @@ button:hover .plus{
    margin-left: -5px;
    margin-right: 11px;
 }
+

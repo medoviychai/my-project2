@@ -12,7 +12,7 @@
       <div class="top"></div>
       <p class="headline">To-Do List</p>
       <div class='sort'></div>
-      <div class="task">
+      <div class="task" id="sortableList">
          <form class='task-wrapper'> 
             <input class='entry-field'>
             <button type="button" name ='remove-task' class='remove-task'></button>
@@ -28,5 +28,14 @@
    </div>
 
    <script src="task_tracker.js"></script>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+   <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+   <script>
+   $( function() {
+   $( "#sortableList" ).sortable({
+      connectWith: ".connectedSortable"}).disableSelection();
+   });
+   </script>
 </body>
 </html>
