@@ -134,3 +134,7 @@ button:hover .plus{
    margin-right: 11px;
 }
 
+::selection {
+   background-color: #9953F1;
+   color: white;
+}
