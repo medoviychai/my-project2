@@ -41,11 +41,11 @@ body {
    width: 25px;
    height: 15px;
    margin-right: 30px;
-   background: url(sort-down.svg);
+   background: url(images/sort-down.svg);
 }
 
 .sort:hover {
-   background: url(sort-down-active.svg);
+   background: url(images/sort-down-active.svg);
 }
 
 .sort-reverse {
@@ -53,10 +53,10 @@ body {
    width: 25px;
    height: 15px;
    margin-right: 30px;
-   background: url(sort-reverse.svg);
+   background: url(images/sort-reverse.svg);
 }
 .sort-reverse:hover {
-   background: url(sort-reverse-active.svg);
+   background: url(images/sort-reverse-active.svg);
 }
 
 .task {
@@ -91,12 +91,12 @@ body {
    width: 20px;
    height: 20px;
    margin: 10px 30px 10px 0;
-   background: url(delete-task.svg);
+   background: url(images/delete-task.svg);
    background-repeat: no-repeat;
 }
 
 .remove-task:hover {
-   background: url(delete-task-active.svg);
+   background: url(images/delete-task-active.svg);
    background-repeat: no-repeat;
 }
 
